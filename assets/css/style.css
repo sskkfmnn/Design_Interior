@@ -1,0 +1,154 @@
+/* Font: Lora/ Work sans
+Farbe: #2e2e2e / #fff / #000 / #1d2c2f  */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: "Lora";
+    src: url("../fonts/Lora-Medium.ttf");
+}
+
+@font-face{
+    font-family: "WorkSans";
+    src: url("../fonts/WorkSans-SemiBold.ttf");
+}
+
+
+/* /////////////// HEADER ///////////////// */
+
+#section1_header{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section1_header_article{
+    margin: auto auto;
+    text-align: center;
+    font-family: "Lora";
+    word-spacing: 5px;
+}
+
+.section1_header_article h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.section1_header_img{
+    width: 70%;
+}
+
+
+/* //////////// MAIN /////////////// */
+
+
+#section1_main{
+    background-color: #2e2e2e ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "WorkSans";
+    padding-bottom: 30vh;
+}
+
+.section1_main_nav a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 90px;
+}
+
+#section2_main{
+    background-color: #2e2e2e ;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20vh;
+}
+
+.section2_main_img{
+    width: 80vw;
+}
+
+.section2_main_article h2{
+    font-family: "Lora";
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-bottom: 2vh;
+}
+
+.section2_main_article p{
+    font-family: "WorkSans";
+    font-size: 17px;
+    padding: 10px;
+    color: white;
+    width: 90%;
+    margin: auto;
+}
+
+.article1_main{
+    margin: 30vh 0 10vh 0;
+}
+
+.article1_main h2{
+    font-family: "Lora";
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 2vh;
+}
+
+.article1_main p{
+    font-family: "WorkSans";
+    font-size: 20px;
+    margin: auto auto;
+    width: 50%;
+}
+
+#section3_main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-bottom: 20vh;
+}
+
+#section3_main img{
+    width: 25vw;
+    height: 30vh;
+    margin-bottom: 50px;
+}
+
+#section3_main iframe{
+    width: 30vw;
+    height: 30vh;
+}
+
+
+/* //////////// FOOTER /////////////// */
+
+
+#section1_footer{
+    background-color: #2e2e2e;
+    display: flex;
+    justify-content: space-between;
+    padding: 30vh 0 30vh 0;
+}
+
+.article1_footer h2{
+    font-family: "Lora";
+    font-size: 40px;
+    color: white;
+    margin-bottom: 2vh;
+}
+
+.article1_footer p{
+    font-family: "WorkSans";
+    color: white;
+    padding: 10px;
+    width: 35vw;
+}
