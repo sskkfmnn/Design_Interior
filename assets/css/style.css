@@ -144,6 +144,7 @@ Farbe: #2e2e2e / #fff / #000 / #1d2c2f  */
     font-size: 40px;
     color: white;
     margin-bottom: 2vh;
+    margin-left: 80px;
 }
 
 .article1_footer p{
@@ -151,4 +152,46 @@ Farbe: #2e2e2e / #fff / #000 / #1d2c2f  */
     color: white;
     padding: 10px;
     width: 35vw;
+    margin-left: 70px;
+}
+
+.form1_footer{
+    margin-right: 18vw;
+}
+
+footer form h3{
+    color: white;
+}
+
+footer form div{
+    margin-bottom: 2vh;
+}
+
+.input1_footer{
+    width: 22vw;
+}
+
+.input2_footer{
+    width: 22vw;
+}
+
+.textarea1_footer{
+    resize: none;
+    height: 5vh;
+    width: 22vw;
+}
+
+#section2_footer{
+    background-color: #1d2c2f;
+    padding: 5vh 0 5vh 0;
+}
+
+.article2_footer{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.article2_footer p{
+    color: white;
 }
