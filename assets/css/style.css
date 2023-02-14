@@ -53,7 +53,8 @@ Farbe: #2e2e2e / #fff / #000 / #1d2c2f  */
     justify-content: space-between;
     align-items: center;
     font-family: "WorkSans";
-    padding-bottom: 30vh;
+    position: sticky;
+    top: 0;
 }
 
 .section1_main_nav a{
@@ -67,6 +68,7 @@ Farbe: #2e2e2e / #fff / #000 / #1d2c2f  */
     background-color: #2e2e2e ;
     display: flex;
     align-items: center;
+    padding-top: 30vh;
     padding-bottom: 20vh;
 }
 
